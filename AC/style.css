@@ -23,6 +23,27 @@ img {
   width: 50%;
   cursor: pointer;
 }
+img:hover {
+  box-shadow: 3px 3px 10px;
+  border-radius: 100px;
+  box-sizing: initial;
+}
+
+.hiba {
+  text-align: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: red;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.felhasznalo {
+  float: right;
+  margin: 10px;
+  font-size: 20px;
+}
 
 * {
   margin: 0;
@@ -32,8 +53,15 @@ img {
           user-select: none;
 }
 
-body {
+.index-bg body {
   background-image: linear-gradient(45deg, #70090c, #5a5a5a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.fooldal-bg body {
+  background-image: linear-gradient(45deg, #719cb2, #1f4e74);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;

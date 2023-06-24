@@ -22,4 +22,19 @@ form input {
 img {
   width: 50%;
   cursor: pointer;
+}
+img:hover {
+  box-shadow: 3px 3px 10px;
+  border-radius: 100px;
+  box-sizing: initial;
+}
+
+.hiba {
+  text-align: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: red;
+  font-size: 18px;
+  border-radius: 5px;
 }/*# sourceMappingURL=reg.css.map */

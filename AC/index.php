@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="index-bg" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,9 +15,9 @@
     <div class="regisztracio">
         <img src="./imgs/ac_logo.png" id="logo" alt="Regisztráció" title="Regisztráció">
     </div>
-    <div class="fooldal">
-
-    </div>
+    <?php
+    include("./moduls/belepes.php");
+    ?>
     <script src="./scripts/kep_valtas.js"></script>
 </body>
 

@@ -1,4 +1,5 @@
 @import "styles/reg";
+@import "styles/fooldal";
 
 * {
     margin: 0;
@@ -6,9 +7,20 @@
     user-select: none;
 }
 
-body {
-    background-image: linear-gradient(45deg, #70090c, #5a5a5a);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.index-bg {
+    body {
+        background-image: linear-gradient(45deg, #70090c, #5a5a5a);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+.fooldal-bg {
+    body {
+        background-image: linear-gradient(45deg, #719cb2, #1f4e74);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
 }
