@@ -40,3 +40,17 @@ img {
     font-size: 18px;
     border-radius: 5px;
 }
+
+.belepes {
+    position: relative;
+    top: 105px;
+    left: -170px;
+    a {
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: black;
+        }
+    }
+}

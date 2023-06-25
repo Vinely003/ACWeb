@@ -37,4 +37,18 @@ img:hover {
   background-color: red;
   font-size: 18px;
   border-radius: 5px;
+}
+
+.belepes {
+  position: relative;
+  top: 105px;
+  left: -170px;
+}
+.belepes a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.belepes a:hover {
+  color: black;
 }/*# sourceMappingURL=reg.css.map */
