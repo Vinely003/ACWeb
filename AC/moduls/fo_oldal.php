@@ -20,13 +20,27 @@
     echo "Név: " . $_SESSION["users"];
     ?>
     <br>
-    <a href="../index.php">Kijelentkezés</a>
+    <a href="./be.php">Kijelentkezés</a>
 </div>
 <div class="menu">
-
+    <a href="./fo_oldal.php?jatek=AC">Assassin's Creed</a>
+    <a href="./fo_oldal.php?jatek=AC2">Assassin's Creed II</a>
+    <a href="./fo_oldal.php?jatek=ACBH">Assassin's Creed Brotherhood</a>
+    <a href="./fo_oldal.php?jatek=ACR">Assassin's Creed Revelation</a>
+    <a href="./fo_oldal.php?jatek=AC3">Assassin's Creed III</a>
+    <a href="./fo_oldal.php?jatek=ACBF">Assassin's Creed Black Flag</a>
+    <a href="./fo_oldal.php?jatek=ACR">Assassin's Creed Rouge</a>
+    <a href="./fo_oldal.php?jatek=ACU">Assassin's Creed Unity</a>
+    <a href="./fo_oldal.php?jatek=ACS">Assassin's Creed Syndicate</a>
+    <a href="./fo_oldal.php?jatek=ACO">Assassin's Creed Origins</a>
+    <a href="./fo_oldal.php?jatek=ACOY">Assassin's Creed Odyssey</a>
+    <a href="./fo_oldal.php?jatek=ACV">Assassin's Creed Valhalla</a>
+    <a href="./fo_oldal.php?jatek=ACM">Assassin's Creed Mirage</a>
 </div>
 <div class="leiras">
-
+    <?php
+    include("./oldal_valt.php")
+    ?>
 </div>
 
 </html>

@@ -1,5 +1,21 @@
 .felhasznalo {
     float: right;
     margin: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    box-sizing: border-box;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+.menu {
+    position: absolute;
+    top: 70px;
+    display: flex;
+    box-sizing: border-box;
+    a {
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+    }
 }

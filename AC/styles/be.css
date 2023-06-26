@@ -1,0 +1,20 @@
+.regisztracio {
+  position: relative;
+  top: 105px;
+  left: -170px;
+}
+.regisztracio a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.regisztracio a:hover {
+  color: black;
+}
+
+#bejelentkezes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}/*# sourceMappingURL=be.css.map */

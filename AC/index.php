@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="regisztracio">
+    <div id="regisztracio">
         <img src="./imgs/ac_logo.png" id="logo" alt="Regisztráció" title="Regisztráció">
     </div>
     <?php
